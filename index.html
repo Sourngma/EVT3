@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com -->
-  <title>12345 John</title>
+  <title>18219 Sourng</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -26,17 +26,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-user"></span>&nbsp;12345</a>
+      <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-user"></span>&nbsp;18219</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT<span class="caret"></span></a>
             <ul class="dropdown-menu">
+              <li><a href="#about">About</a></li> 
               <li><a href="#businesshour">Have to know before start</a></li>
               <li><a href="#breach">Data Breach</a></li>  
               <li><a href="#businesscase">Business Case</a></li>         
-              <li><a href="#taskthree">Task Three</a></li>       
-              <li><a href="#about">About</a></li>             
+              <li><a href="#taskthree">Task Three</a></li>                   
             </ul>
         </li>        
         <li><a href="#services">HARD/SOFTWEAR</a></li>
@@ -50,7 +50,7 @@
 
 <div class="jumbotron text-center">
   <h1>Evaluate and communicate business requirements</h1> 
-  <p style="color: lime;">This site powered by 12345 John in 2023</p> 
+  <p style="color: rgb(8, 29, 144);">This site powered by 18219 Sourng in 2023</p> 
   <div class="form-group row">
     <div class="col-xs-3"> 
     </div>
@@ -500,7 +500,7 @@
             </tr>
             <tr> <td>Server X 1</td> <td>Window Server</td> </tr>
             <tr> <td>Computer X 8</td> <td>Windows</td> </tr>
-            <tr> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
+            <tr> <td>laptop</td> <td>&nbsp;</td> </tr>
             <tr> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
             <tr> <td>&nbsp;</td> <td>...</td> </tr>
           </table>
@@ -538,60 +538,88 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+  <h2 class="text-center" id="msg2">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p id="contactaddress">Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> NSW Australia</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +61 0408888688</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>&nbsp;info@green.com</p>
     </div>
     <div class="col-sm-7 slideanim">
+      <form name="contact-to-google-sheet" >
       <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        <div class="col-sm-4 form-group">
+          <input class="form-control" id="name" name="Name" placeholder="Name" type="text" required>
         </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        <div class="col-sm-8 form-group">
+          <input class="form-control" id="email" name="Email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="Comment" placeholder="Comment" rows="5"></textarea><br>
       <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+        <div class="col-sm-6 form-group">
+        <select name="Continent">
+          <option>Australia</option>
+          <option>Asia</option>
+          <option>Africa</option>
+          <option>North America</option>
+          <option>South America</option>
+        </select>  
+        </div>
+        <div class="col-sm-6 form-group">
+          <button class="btn btn-default pull-right" type="submit"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;&nbsp;Send Message</button>
         </div>
       </div>
+      </form><span id="msg2"></span>
     </div>
   </div>
 </div>
 
 <!-- Image of location/map -->
 <center>
-<img src="https://cxm.co.uk/wp-content/uploads/2021/08/shutterstock_1859210845-scaled.jpg" class="w3-image w3-greyscale-min" id="myimg" style="width:90%; margin: 20px; height: 400px;">
+<img src="images/co worker.png" class="w3-image w3-greyscale-min" id="myimg" style="width:90%; margin: 20px; height: 400px;">
 </center>
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>This site powered By <a href="https://wic.nsw.edu.au/" title="Visit Our College" target="blank">wic.nsw.edu.au/</a></p>
-  <p>Powered by 12345 John</p>
+  <p>Powered by 18219 Sourng</p>
 </footer>
 <!-- Load external JavaScript -->
 <script src="scripts.js"></script>
 <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbziD7eQGLvxHJtvXuH_hR1Onp66sz4we60iPyXFcAThReLLMi78FMDvxtXYn96-hh_M/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwYDtZzEBP3kcXNpXwg9OPfg6czk1Ll5lIl94E0WVr5FJsAA6cFn_GaP2BPTbyBELESrg/exec'
   const form = document.forms['submit-to-google-sheet']
   const msg = document.getElementById("msg")
+
+  const scriptURL2 = 'https://script.google.com/macros/s/AKfycbzsNygkxRK9hb3NpnaMp6mvDV2rofnVN68JCqZjtoQ780g43c0OpcwmjZI95NNpFpOZzw/exec'
+  const form2 = document.forms['contact-to-google-sheet']
+  const msg2 = document.getElementById("msg2")
+ 
 
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-          msg.innerHTML = "<br />Thank you For Subscribing by 12345 John"
+          msg.innerHTML = "<br />Thank you For Subscribing by 18219 Sourng"
           setTimeout(function(){
               msg.innerHTML = ""
           }, 5000)
           form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+  form2.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+      .then(response => {
+          msg2.innerHTML = "<br/>Thanks for your contact details by 18219 Sourng"
+          setTimeout(function(){
+              msg2.innerHTML = ""
+          }, 5000)
+          form2.reset()
       })
       .catch(error => console.error('Error!', error.message))
   })
